@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Limpa Vidros - limpeza profissional de vidros, janelas, sacadas e fachadas. Orçamento direto no WhatsApp." />
+  <title>Limpa Vidros | Limpeza Profissional</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar__content">
+      <span>Limpeza profissional • Atendimento rápido</span>
+      <a class="topbar__link" href="https://wa.me/5531971401928" target="_blank" rel="noreferrer">
+        WhatsApp: (31) 97140-1928
+      </a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__content">
+      <a class="brand" href="#inicio" aria-label="Ir para o início">
+        <img src="assets/Logo.png" alt="Logo Limpa Vidros" class="brand__logo" />
+        <div class="brand__text">
+          <strong>Limpa Vidros</strong>
+          <span>Limpeza profissional</span>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <button class="nav__toggle" id="btnMenu" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav__list" id="menu">
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#processo">Como funciona</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#orcamento">Orçamento</a></li>
+        </ul>
+
+        <a class="btn btn--primary" href="#orcamento">Pedir orçamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO: só vídeo (sem textos em cima) -->
+  <main id="inicio">
+    <section class="hero hero--clean" aria-label="Vídeo principal">
+      <video
+        id="heroVideo"
+        class="hero__video"
+        controls
+        playsinline
+        preload="metadata"
+      >
+        <source src="assets/IMG_6051.MOV" type="video/mp4" />
+        Seu navegador não suporta vídeo HTML5.
+      </video>
+    </section>
+
+    <!-- Conteúdo abaixo do vídeo -->
+    <section class="section section--intro">
+      <div class="container intro">
+        <div>
+          <h1>Vidros impecáveis. Acabamento premium.</h1>
+          <p>
+            Limpeza profissional de janelas, sacadas, box e fachadas.
+            Atendimento rápido e orçamento direto no WhatsApp.
+          </p>
+
+          <div class="intro__actions">
+            <a class="btn btn--primary" href="#orcamento">Montar orçamento</a>
+            <a class="btn btn--ghost" href="#galeria">Ver galeria</a>
+          </div>
+
+          <div class="intro__badges">
+            <span class="badge">Equipe uniformizada</span>
+            <span class="badge">EPI e segurança</span>
+            <span class="badge">Sem manchas</span>
+          </div>
+        </div>
+
+        <aside class="intro__card">
+          <h3>Atendimento rápido</h3>
+          <p class="muted">
+            Clique e fale com a equipe agora mesmo.
+          </p>
+          <a class="btn btn--primary w100" href="https://wa.me/5531971401928" target="_blank" rel="noreferrer">
+            Chamar no WhatsApp
+          </a>
+          <div class="mini">
+            <span class="mini__label">WhatsApp</span>
+            <strong>(31) 97140-1928</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <div class="section__head">
+          <h2>Serviços</h2>
+          <p>Escolha o que você precisa — fazemos a limpeza correta para cada tipo de vidro.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <h3>Janelas e Portas</h3>
+            <p>Limpeza interna/externa, trilhos e acabamento sem marcas.</p>
+            <span class="chip">Residencial</span>
+          </article>
+
+          <article class="card">
+            <h3>Box de Banheiro</h3>
+            <p>Remoção de marcas d’água e sujeira com técnica.</p>
+            <span class="chip">Detalhamento</span>
+          </article>
+
+          <article class="card">
+            <h3>Sacadas e Varandas</h3>
+            <p>Vidros de sacada, guarda-corpo e painéis — mais brilho.</p>
+            <span class="chip">Condomínio</span>
+          </article>
+
+          <article class="card">
+            <h3>Fachadas e Lojas</h3>
+            <p>Vitrines e fachadas com padrão profissional para valorizar seu negócio.</p>
+            <span class="chip">Comercial</span>
+          </article>
+
+          <article class="card">
+            <h3>Espelhos</h3>
+            <p>Limpeza sem manchas e sem riscos, com acabamento perfeito.</p>
+            <span class="chip">Acabamento</span>
+          </article>
+
+          <article class="card">
+            <h3>Pós-obra</h3>
+            <p>Remoção de sujeiras mais pesadas com cuidado e produtos adequados.</p>
+            <span class="chip">Especial</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Processo -->
+    <section class="section section--alt" id="processo">
+      <div class="container">
+        <div class="section__head">
+          <h2>Como funciona</h2>
+          <p>Rápido, simples e direto ao ponto.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="step">
+            <div class="step__num">1</div>
+            <h3>Você solicita</h3>
+            <p>Escolha os serviços e descreva o local no formulário.</p>
+          </div>
+
+          <div class="step">
+            <div class="step__num">2</div>
+            <h3>Confirmamos</h3>
+            <p>Respondemos no WhatsApp para alinhar detalhes e agenda.</p>
+          </div>
+
+          <div class="step">
+            <div class="step__num">3</div>
+            <h3>Executamos</h3>
+            <p>Equipe com EPI e técnica para entregar brilho sem marcas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section__head">
+          <h2>Galeria</h2>
+          <p>Alguns registros da equipe e atendimento.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery__item">
+            <img src="assets/foto-01.jpg" alt="Equipe Limpa Vidros" loading="lazy" />
+          </figure>
+          <figure class="gallery__item">
+            <img src="assets/foto-02.jpg" alt="Equipe em atendimento" loading="lazy" />
+          </figure>
+          <figure class="gallery__item">
+            <img src="assets/foto-03.jpg" alt="Uniforme e equipamentos" loading="lazy" />
+          </figure>
+          <figure class="gallery__item">
+            <img src="assets/foto-04.jpg" alt="Equipe Limpa Vidros" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Orçamento -> WhatsApp -->
+    <section class="section section--alt" id="orcamento">
+      <div class="container">
+        <div class="section__head">
+          <h2>Montar orçamento</h2>
+          <p>Preencha e envie direto para o WhatsApp.</p>
+        </div>
+
+        <div class="quote">
+          <form class="form" id="formOrcamento">
+            <div class="form__grid">
+              <label class="field">
+                <span>Seu nome</span>
+                <input type="text" id="nome" placeholder="Ex.: Maria" required />
+              </label>
+
+              <label class="field">
+                <span>Bairro / Cidade</span>
+                <input type="text" id="local" placeholder="Ex.: Centro - BH" required />
+              </label>
+
+              <label class="field">
+                <span>Tipo de imóvel</span>
+                <select id="tipo" required>
+                  <option value="" selected disabled>Selecione</option>
+                  <option>Casa</option>
+                  <option>Apartamento</option>
+                  <option>Comércio / Loja</option>
+                  <option>Outro</option>
+                </select>
+              </label>
+
+              <label class="field">
+                <span>Melhor dia/horário</span>
+                <input type="text" id="horario" placeholder="Ex.: Sábado de manhã" />
+              </label>
+            </div>
+
+            <div class="form__services">
+              <p class="form__title">Selecione os serviços desejados:</p>
+
+              <div class="checks">
+                <label class="check"><input type="checkbox" value="Janelas e Portas"> Janelas e Portas</label>
+                <label class="check"><input type="checkbox" value="Box de Banheiro"> Box de Banheiro</label>
+                <label class="check"><input type="checkbox" value="Sacadas e Varandas"> Sacadas e Varandas</label>
+                <label class="check"><input type="checkbox" value="Fachadas e Lojas"> Fachadas e Lojas</label>
+                <label class="check"><input type="checkbox" value="Espelhos"> Espelhos</label>
+                <label class="check"><input type="checkbox" value="Pós-obra (Vidros)"> Pós-obra (Vidros)</label>
+              </div>
+            </div>
+
+            <label class="field">
+              <span>Detalhes do serviço</span>
+              <textarea id="detalhes" rows="5" placeholder="Ex.: 8 janelas, 2 boxes, sacada com 6 folhas..."></textarea>
+            </label>
+
+            <div class="form__actions">
+              <button type="submit" class="btn btn--primary">Enviar para WhatsApp</button>
+              <a class="btn btn--ghost" target="_blank" rel="noreferrer" href="https://wa.me/5531971401928">
+                Abrir WhatsApp
+              </a>
+            </div>
+
+            <p class="form__hint">
+              Ao enviar, a mensagem abre no WhatsApp já pronta. Basta tocar em <strong>Enviar</strong>.
+            </p>
+          </form>
+
+          <aside class="quote__info">
+            <div class="infoCard">
+              <h3>Contato</h3>
+              <p>WhatsApp: <strong>(31) 97140-1928</strong></p>
+              <p class="muted">Residencial e comercial.</p>
+              <a class="btn btn--primary w100" target="_blank" rel="noreferrer" href="https://wa.me/5531971401928">
+                Chamar agora
+              </a>
+            </div>
+
+            <div class="infoCard">
+              <h3>Diferenciais</h3>
+              <ul class="list">
+                <li>Equipe uniformizada</li>
+                <li>Segurança e EPI</li>
+                <li>Acabamento premium</li>
+                <li>Atendimento rápido</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__content">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="Logo Limpa Vidros" class="footer__logo" />
+        <p>Limpeza profissional de vidros, janelas, sacadas e fachadas.</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#orcamento">Orçamento</a>
+      </div>
+
+      <div class="footer__cta">
+        <a class="btn btn--primary" target="_blank" rel="noreferrer" href="https://wa.me/5531971401928">
+          WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <small>© <span id="ano"></span> Limpa Vidros. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a class="wpp-float" href="https://wa.me/5531971401928" target="_blank" rel="noreferrer" aria-label="Chamar no WhatsApp">
+    WhatsApp
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
